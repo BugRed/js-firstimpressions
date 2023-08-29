@@ -2,7 +2,7 @@ const study = ["Jão", "July", "Ana", "Caio"]
 const mid = [10, 8, 7, 5, 9]
 const studyMid = [study, mid]
 
-//Nomeando cada arrays de dentro do array principal com um nome especifico
+//Nomeando cada arrays de dentro do array principal com um nome especifico(desestruturação de lista)
 const [students, midway] = studyMid;
 
 console.log(students, midway)
