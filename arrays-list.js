@@ -87,3 +87,9 @@ months.splice(1,0, "Feb")
 console.log("Insert with splice: " + months)
 months.splice(4, 1, "May")
 console.log("Replace with splice: " + months)
+
+
+//Includes: procura um elemento dentro da lista e retorna false ou true
+const pets = ['cat', 'dog', 'bat'];
+console.log(pets.includes('cat'));
+console.log(pets.includes('at'));
