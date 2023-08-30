@@ -7,8 +7,3 @@ mid.forEach(function (note, index) {
     console.log(index)
 })
 console.log(sum / mid.length)
-
-mid.forEach((nota, index) =>{
-   return nota[index] + 1;
-})
-console.log(mid)
