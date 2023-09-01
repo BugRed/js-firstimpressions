@@ -1,6 +1,6 @@
 const notes = [7, 7, 8, 9]
 
-//apread operator = operador de espalhamento
+//spread operator = operador de espalhamento
 
 const newNotes = [5, ...notes, 10]
 
